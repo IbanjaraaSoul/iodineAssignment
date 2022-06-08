@@ -1,0 +1,18 @@
+{
+  "name": "iodineassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kumar",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-real-events": "^1.7.0"
+  },
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1"
+  }
+}
