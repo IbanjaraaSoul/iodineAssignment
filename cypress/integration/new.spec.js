@@ -1,9 +1,4 @@
 describe("sample scenario", () => {
-  beforeEach(() => {
-    // run these tests as if in a desktop
-    // browser with a 720p monitor
-    cy.viewport(1280, 720);
-  });
   it("sample test", () => {
     cy.visit("https://iodinesoftware.com/");
     cy.contains("Careers").should("not.be.visible");
@@ -60,7 +55,9 @@ describe("sample scenario", () => {
     });
     cy.wait(1000);
     cy.enter("#gnewtonIframe").then((getBody) => {
-      getBody().contains("Clear All Fields").click();
+      getBody().find("#firstName").clear();
+      getBody().find("#lastName").clear();
+      getBody().find("#email").clear();
       getBody()
         .find("#firstName")
         .invoke("prop", "validationMessage")
