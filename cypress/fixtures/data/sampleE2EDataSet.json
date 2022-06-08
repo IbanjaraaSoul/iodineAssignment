@@ -1,0 +1,16 @@
+{
+  "dataSet1": {
+    "companyOptionToSelect": "Careers",
+    "roleToApply": "Software Development Engineer in Test",
+    "legallyAuthorisedInUS": "Yes",
+    "spnonsershipRequired": "No",
+    "gender": "Male",
+    "ethnicityOrRace": "I decline to identify",
+    "vetranStatus": "I DO NOT WISH TO IDENTIFY AT THIS TIME",
+    "disabilityStatus": "I Don't Wish To Answer",
+    "YourName": "Kumar Saheb",
+    "firstName": "Kumar",
+    "lastName": "Saheb",
+    "email": "ks2476@gmail.com"
+  }
+}
