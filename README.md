@@ -11,3 +11,4 @@ step 5: Open the project in visual studio code IDE and launch a terminal
 Step 6: Run 'npm i' to install all dependencies in your local
 Step 7: Run 'npx cypress open' to launch the cypress
 Step 8: Run the feature file from test runner in any of the browser ( Chrome preffered)  
+Step 9: Incase feature file is not running ( due to on going issue with cucumber preprocssor) , you can run the project from spec.js file also.  
