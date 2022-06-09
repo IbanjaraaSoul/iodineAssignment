@@ -1,6 +1,8 @@
 export class ventranPageObject {
-  iframe_common() {
-    return cy.iframe("#gnewtonIframe");
+  radiobutton_vetran() {
+    return cy
+      .iframe("#gnewtonIframe")
+      .find("#not-identify-identify + span + span");
   }
 }
 

@@ -1,4 +1,5 @@
 {
   "appurl": "https://iodinesoftware.com/",
-  "careerURL": "https://iodinesoftware.com/careers-2/"
+  "careerURL": "https://iodinesoftware.com/careers-2/",
+  "errorMsgForBlankInput": "Please fill out this field."
 }
