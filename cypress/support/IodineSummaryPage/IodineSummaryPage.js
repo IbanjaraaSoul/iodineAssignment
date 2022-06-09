@@ -1,7 +1,7 @@
 import { Given, Then, When } from "cypress-cucumber-preprocessor/steps";
-import * as commonData from "../../../fixtures/data/commonData.json";
+import * as commonData from "../../fixtures/data/commonData.json";
 import * as e2eData from "../../../fixtures/data/sampleE2EDataSet.json";
-import pages from "../page_objects/page.object.index";
+import pages from "../../../support/page_objects/page.object.index";
 const dayjs = require("dayjs");
 const todaysDate = dayjs().format("YYYY-DD-MM");
 Given(
