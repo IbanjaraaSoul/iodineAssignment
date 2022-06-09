@@ -8,13 +8,13 @@
   },
   "author": "kumar",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^9.7.0",
-    "cypress-real-events": "^1.7.0"
+  "dependencies": {   
   },
   "devDependencies": {
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-iframe": "^1.0.1",
-    "dayjs": "^1.11.3"
+    "dayjs": "^1.11.3",
+     "cypress": "^9.7.0",
+    "cypress-real-events": "^1.7.0"
   }
 }
